@@ -9,6 +9,6 @@ enableRobotsTXT = true
   email = "bauza723@gmail.com"
 
 [params]
+  workana = "https://www.workana.com/e/e6214a5e855aeb33e13b423b835087a8"
   description = "Servicios OSINT, informes legales y ciberinvestigación freelance."
   github = "https://github.com/TU_USUARIO"
-  workana = "https://www.workana.com/users/TU_USUARIO"
