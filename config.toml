@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://vanerbauza.github.io/bauza-site/"
 languageCode = "es-MX"
 title = "BauzaGPT-AI"
 theme = "ananke"
