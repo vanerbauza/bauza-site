@@ -1,0 +1,21 @@
+<section class="pricing container">
+  <h2>Paquetes y precios</h2>
+  <div class="pricing-grid">
+    {{ with site.Data.pricing }}
+      {{ range $key, $pkg := . }}
+        <div class="card pricing-card">
+          <h3>{{ $pkg.name }}</h3>
+          <p class="price">{{ $pkg.price }}</p>
+          <ul>
+            {{ range $pkg.features }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          <p><a class="btn" href="{{ "/contacto/" | relURL }}">Contratar</a></p>
+        </div>
+      {{ end }}
+    {{ else }}
+      <p>No hay paquetes definidos todavía.</p>
+    {{ end }}
+  </div>
+</section>

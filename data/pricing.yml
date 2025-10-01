@@ -1,0 +1,19 @@
+basic:
+  name: "Informe OSINT - Básico"
+  price: "1,200 MXN"
+  features:
+    - "Búsqueda de perfiles públicos"
+    - "Resumen cronológico"
+pro:
+  name: "Informe OSINT - Pro"
+  price: "3,500 MXN"
+  features:
+    - "Investigación en profundidad"
+    - "Verificación de metadatos"
+    - "Entrega en PDF con hashes"
+enterprise:
+  name: "Paquete Corporativo"
+  price: "A cotizar"
+  features:
+    - "Investigación completa"
+    - "Soporte legal y chain-of-custody"

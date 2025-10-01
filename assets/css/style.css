@@ -1,0 +1,14 @@
+
+/* HERO */
+.hero{padding:2rem;background:linear-gradient(135deg,#081026 0%, #0f1724 100%);color:#fff;border-radius:8px;margin-bottom:1.4rem}
+.btn{display:inline-block;padding:.55rem .9rem;border-radius:6px;background:var(--accent);color:#fff;text-decoration:none}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.14)}
+.card{background:var(--card);padding:1rem;border-radius:8px;box-shadow:0 6px 18px rgba(11,17,34,0.06);color:inherit}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.pricing-card .price{font-size:1.2rem;font-weight:700;color:var(--accent)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1rem}
+
+@media (max-width:720px){
+  .hero{padding:1rem}
+  .container{padding:0 1rem}
+}

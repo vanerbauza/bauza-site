@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ partial "hero.html" . }}
+  <section class="container">
+    <h2>Servicios destacados</h2>
+    {{ $pages := site.GetPage "section" "services" }}
+    {{ if $pages }}
+      <div class="services-grid">
+        {{ range $pages.Pages }}
+          <div class="card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+            <p><a href="{{ .RelPermalink }}">Más</a></p>
+          </div>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p>No hay servicios aún.</p>
+    {{ end }}
+  </section>
+
+  {{ partial "pricing.html" . }}
+
+{{ end }}

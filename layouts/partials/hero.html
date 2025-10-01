@@ -1,0 +1,20 @@
+<section class="hero">
+  <div class="container" style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap">
+    <div style="flex:1;min-width:260px">
+      <h1 style="margin:0 0 .6rem 0;">{{ .Site.Title }}</h1>
+      <p style="margin:0 0 1rem 0;color:var(--muted)">{{ .Site.Params.description }}</p>
+      <p>
+        <a class="btn" href="{{ "contacto/" | relURL }}">Contratar / Contacto</a>
+        <a class="btn ghost" href="{{ "services/" | relURL }}" style="margin-left:.6rem">Ver servicios</a>
+      </p>
+    </div>
+    <div style="flex:0 0 360px;min-width:200px">
+      <div class="card">
+        <h3 style="margin-top:0">Paquete destacado</h3>
+        <p style="margin:0 .6rem .6rem 0">Informe OSINT Pro — verificación, metadatos y PDF listo para expediente.</p>
+        <p><strong>Precio:</strong> 3,500 MXN</p>
+        <a class="btn" href="{{ "contacto/" | relURL }}">Solicitar informe</a>
+      </div>
+    </div>
+  </div>
+</section>
