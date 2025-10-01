@@ -1,0 +1,14 @@
+baseURL = "http://localhost:1313/"
+languageCode = "es-MX"
+title = "BauzaGPT-AI"
+theme = "ananke"
+enableRobotsTXT = true
+
+[author]
+  name = "Iván Omar Barrón Bauza"
+  email = "bauza723@gmail.com"
+
+[params]
+  description = "Servicios OSINT, informes legales y ciberinvestigación freelance."
+  github = "https://github.com/TU_USUARIO"
+  workana = "https://www.workana.com/users/TU_USUARIO"
